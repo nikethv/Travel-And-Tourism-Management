@@ -14,13 +14,12 @@ public class CheckHotels extends JFrame implements Runnable{
     
     public void run(){
         String[] text = new String[]{"JW Marriott Hotel","Madrin Oriental Hotel","Four Seasons Hotel","Raddisons Blue Hotel","Classio Hotel","The Bay Club Hotel","The Taj Hotel","Happy Morning Motel","River View Hotel"};
-       
-        try{
-            for(int i=0;i<=9;i++){
-                label[i].setVisible(true);
-                caption.setText(text[i]);
-                Thread.sleep(2500);
-                label[i].setVisible(false);
+    try:
+    import qrcode
+    QRCODE_AVAILABLE = True
+except ImportError:
+    QRCODE_AVAILABLE = False
+
             }
             
         }catch(Exception e){
