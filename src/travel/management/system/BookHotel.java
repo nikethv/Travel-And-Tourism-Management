@@ -17,7 +17,7 @@ public class BookHotel extends JFrame implements ActionListener{
     
     BookHotel(String username){
         this.username = username;
-        setBounds(350,200,1100,600);
+        setBounds(350,200,1100,600,1200);
         setLayout(null);
         getContentPane().setBackground(Color.WHITE);
         
